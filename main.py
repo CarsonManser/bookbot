@@ -1,1 +1,6 @@
-print("hello world")
+def Main():
+    with open("books/frankenstein.txt") as f:
+        file_contents = f.read()
+        print(file_contents)
+
+Main()
